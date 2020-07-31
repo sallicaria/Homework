@@ -1,0 +1,66 @@
+.bblock {
+  height: 300px;
+  width: 600px;
+  background: hotpink;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.bblock-child1 {
+  height: 100px;
+  width: 100px;
+  background-color: gold;
+  float: left;
+}
+
+.bblock-child1:hover {
+  background: greenyellow;
+}
+
+.bblock-child2 {
+  height: 100px;
+  width: 100px;
+  background-color: gold;
+  float: left;
+  margin-top: 200px;
+  margin-left: -100px;
+}
+
+.bblock-child2:hover {
+    background: khaki;
+  }
+
+.bblock-child3 {
+  height: 100px;
+  width: 100px;
+  background-color: gold;
+  float: right;
+}
+
+.bblock-child3:hover {
+  background: greenyellow;
+}
+
+.bblock-child4 {
+  height: 100px;
+  width: 100px;
+  background-color: gold;
+  float: right;
+  margin-top: 200px;
+  margin-right: -100px;
+}
+
+.bblock-child4:hover {
+  background: khaki;
+}
+
+.bblock-child5 {
+  height: 100px;
+  width: 100px;
+  background-color: gold;
+  margin-top: -50px;
+  margin-left: -50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
